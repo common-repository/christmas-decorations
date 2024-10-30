@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+body{padding-bottom:70px;}
+
+
+
+
+
+#snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+
+
+
+
+#christmas-decorations-footer-last{margin-bottom:78px;}
+#snow-container {z-index: 1000000;color: #fff;position: absolute;font-size: 25px;top: -50px;}
+#christmas-decorations-countdown{ 
+background-image:url(../images/christmas.png);
+position:fixed; 
+bottom:0px; 
+width:100%; 
+background-color:transparent; 
+padding:20px; 
+z-index:100000;
+text-align:center;
+font-size:24px;
+height:70px; box-shadow:-1px 2px 4px 4px #999;font-family: 'Dancing Script', cursive;}
+#christmas-decorations-countdown ul{ padding:0px; max-width:640px; margin:auto; color:#FFF;}
+#christmas-decorations-countdown ul li:first-child{ margin-left:0px;}
+#christmas-decorations-countdown ul li{list-style:none; float:left; margin-left:10px;}
+
+	
+@media screen and (min-device-width: 424px) and (max-device-width: 660px) {	
+body{padding-bottom:58px;}
+#christmas-decorations-countdown{ font-size:14px; height:58px;}
+}	
+
+@media screen and (min-device-width: 260px) and (max-device-width: 424px) {	
+body{padding-bottom:58px;}
+#christmas-decorations-countdown{ font-size:12px; height:58px; padding:10px 4px;}
+}	
+@media screen and (min-device-width: 100px) and (max-device-width: 260px) {	
+body{padding-bottom:58px;}
+#christmas-decorations-countdown{ font-size:12px; height:58px; padding:2px 1px;}
+}
